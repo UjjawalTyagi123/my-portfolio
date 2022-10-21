@@ -1,0 +1,45 @@
+.Header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+/* text-align: center; */
+max-width:100%;
+margin: auto;
+
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    
+}
+
+
+.col {
+    width: 30.33%;
+    float: left;
+    padding:10px;
+    text-align: justify;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media (max-width:560px){
+      .col{
+        width: 95%;
+      }
+  }
+
+  .footer{
+    text-align: center;
+    padding :10px;
+    background-color:#f1f1f1;
+    margin-top: 40%;
+  }

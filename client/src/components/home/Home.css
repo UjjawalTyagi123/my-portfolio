@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+.intro{
+    float: left;
+    margin-top: 4vh;
+    margin-left: 10%;
+   width: 50vh;
+}
+.intro p{
+    font-size: 3vh;
+    color:#4e54c8;
+}
+.intro h1{
+    font-size: 6vh;
+}
+.image{
+    float:right;
+    margin-bottom: 10vh;
+    margin-right: 40vh;
+    margin-left: 5px;
+    margin-top: 3vh;
+}
+.image img{
+ width: 290px;
+ height: 290px;
+}
+footer ul {
+    display: flex;flex-direction:row;
+    list-style: none;
+    margin-left: 40%;
+    margin-top: 20vh;
+}
+footer li{
+    padding-left: 10px;
+}
+footer img{
+        height: 50px;
+        width: 50px;
+}
+@media(max-width:1060px){
+    
+    footer ul{
+        margin-left:20%;
+    }
+    .image{
+        float: left;
+         margin-left: 10vh;
+    }
+     .intro h1{
+        font-size: 3vh;
+     }
+    .intro p{
+        font-size:3vh ;
+    }
+    .intro{
+        width: 40vh;
+    }
+   .liked img{
+        height: 200px;
+        width: 300px;
+    }
+    .likesHeading{
+        margin-right:80vh;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+.liked{
+   margin-top:20vh;
+   margin-left: 3vh;
+}
+.likeuniqe{
+    float:left;
+}
+
+.likesimg{
+    height: 250px;
+    border: 5px solid rgb(211, 205, 205);
+}
+
+.likesHeading{
+  margin-top:47vh;
+  margin-left: 40%;
+  font-size: 4vh;
+  letter-spacing: 1px;
+  color: #4e54c8;
+}

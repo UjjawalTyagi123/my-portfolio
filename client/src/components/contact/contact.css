@@ -1,0 +1,120 @@
+.social-list{
+   
+  align-items: center;
+}
+
+.img-sc{
+    float: left;
+    width: 50px;
+}
+.h3-sc{
+   padding-top: 0;
+   padding-left: 10vh;
+    font-size: 1.6rem;
+color: #757575;
+line-height: 1;
+}
+.social-list ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vh;
+    list-style: none;
+}
+.social-list ul li{
+    padding: 4vh;
+    padding-top: 0;
+}
+
+h1{
+    color: rgb(62, 58, 58);
+    padding: 0;
+    margin: 0;
+}
+
+.upperBody{
+    width: 40vh;
+    margin-left:2vh;
+}
+.contact-para{
+    font-size: 2rem;
+color: #757575;
+}
+.email-para{
+    font-size: 2rem;
+    color: #757575;
+    margin-right:5%;
+}
+.email-body{
+   max-width:100%;
+   height: 80vh;
+   background-color:rgb(246, 244, 244);
+   border-top: 2px solid rgb(175, 169, 169);
+   box-sizing: border-box;
+}
+.email-content{
+  margin-left: 3vh;
+}
+.msg-body{
+    height: 200px;
+    width:550px;
+  }
+@media(max-width:1080px){
+    .img-sc{
+        width: 30px;
+    }
+    .h3-sc{
+        font-size:1.3rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .contact-para{
+        font-size: 1.6rem;
+    }
+    .social-list ul{
+        display: flex;
+        flex-direction:column;
+        margin-left: 5vh;
+        list-style: none;
+    }
+  .email-content{
+    width: 40vh;
+  }
+  .msg-body{
+    height: 200px;
+    width:350px;
+  }
+}
+label{
+    font-size: 1.6rem;
+}
+
+.nm-eml{
+    margin-top: 3vh;  
+}
+ input{
+    height: 5vh;
+}
+
+.msg{
+   
+   
+    margin-top: 3vh;
+    
+}
+.send-btn{
+
+    margin-top: 4vh;
+    width: 5rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: #333333;
+    color: white;
+}
+
+.send-btn:hover{
+cursor: pointer;
+background-color: #757575;
+}
