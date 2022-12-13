@@ -1,3 +1,20 @@
+.likesimg{
+  width: 350px;
+  height: 250px;
+}
+.likesimg:hover{
+  cursor:auto;
+  opacity: 1;
+}
+
+.project-container{
+  background-color: azure;
+  align-items: center;
+  width: 25rem;
+  padding: 1rem;
+
+}
+
 .about-project{
   float: left;
   width: 50vh;
@@ -5,10 +22,11 @@
 }
 .project-head{
   margin-left: 40%;
-  margin-top: 7vh;
+  margin-bottom: 2rem;
   color:#4e54c8 ;
+  font-size: 2rem;
 }
-.project-main:hover{
+.project-container:hover{
   transform: scale(1.08);
   cursor: pointer;
 }
@@ -30,15 +48,27 @@ padding-left: 10px;
 @media(max-width:1060px){
   .about-project{
    float: none;
-
+  }
+  .project-container{
+    width: 18rem;
+  }
+  .likesimg{
+    width: 250px;
   }
   .project-main{
     margin-left: 10px;
     width: 60vh;
     height: 70vh;
   }
+
 }
 @media(max-width:760px){
+  .project-container{
+    width: 18rem;
+  }
+  .project-head{
+    margin-left: 10%;
+  }
   .project-main{
     margin-left: 10px;
     width: 40vh;

@@ -32,7 +32,7 @@ h1{
 }
 
 .upperBody{
-    width: 40vh;
+    width: 80%;
     margin-left:2vh;
 }
 .contact-para{
@@ -46,9 +46,9 @@ color: #757575;
 }
 .email-body{
    max-width:100%;
-   height: 80vh;
+   height: 100vh;
    background-color:rgb(246, 244, 244);
-   border-top: 2px solid rgb(175, 169, 169);
+   border: 4px solid rgb(175, 169, 169);
    box-sizing: border-box;
 }
 .email-content{
@@ -82,7 +82,7 @@ color: #757575;
   }
   .msg-body{
     height: 200px;
-    width:350px;
+    width:100%;
   }
 }
 label{
@@ -97,7 +97,6 @@ label{
 }
 
 .msg{
-   
    
     margin-top: 3vh;
     
@@ -117,4 +116,17 @@ label{
 .send-btn:hover{
 cursor: pointer;
 background-color: #757575;
+}
+
+.footer img{
+    width: 50px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+ max-width: 100%;
 }

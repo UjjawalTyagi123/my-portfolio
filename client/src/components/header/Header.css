@@ -3,13 +3,12 @@ body{
     margin:0;
     padding:0;
     overflow-x:hidden;
-    position: relative;
+
 }
 
-
 .header{
- 
- position: relative;
+  top:0;
+  position:sticky;
  z-index:1;
     padding: 0;
     background: #4047d1;;
@@ -39,27 +38,25 @@ body{
   color: whitesmoke;
   text-decoration: none;
 }
-.list-item{
-    float: left;
-    
-}
+
 img:hover{
     opacity: 0.3;
     cursor: pointer;
 }
 .list-item ul{
-   
-    list-style: none;
-   display: flex;
-   margin-left: 80%; 
-   margin-top: 1.2em;
-   align-items: center; 
-   color: whitesmoke;
+  display: flex;
+  list-style: none;
+  margin-left: 60%; 
 }
-.list-item li{
+.list-item ul a{
+  text-decoration: none;
+   display: flex;
+   margin-top: 1.2em;
+
+}
+.list-item li a{
     color: whitesmoke;
     padding: 20px;
-   
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     letter-spacing: 1.5px;
@@ -96,6 +93,7 @@ img:hover{
      .list-content{
       display: none;
      }
+  
       .header-sml-show{
         height: 60vh;
        transition: 0.3s;
@@ -115,7 +113,6 @@ img:hover{
    
       .list-item ul{
         flex-direction: column;
-         margin-top: 12vh;
         /* margin-left:30vh;  */
          align-items: center;
         position:relative;
@@ -132,7 +129,6 @@ img:hover{
       }
      
       
-    
       }
   .icon{
      display: inline;
